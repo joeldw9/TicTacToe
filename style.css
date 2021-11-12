@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.player2Score {
+    padding-left: 50px;
+}
+.tieCount {
+    padding-top: 20px;
+}
+body {
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.TicTacToe {
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.TicTacToe div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: 250%;
+}
+.TicTacToe div:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
